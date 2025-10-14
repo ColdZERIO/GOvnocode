@@ -1,4 +1,4 @@
-package hui
+package hui // это не то что кажется.
 
 var count int
 
