@@ -21,8 +21,6 @@ func main() {
 	res := hui.ChekSLice(Zslice)
 	fmt.Println(res)
 
-	hui.ChekSLice() // Сань, какая-то залупа с этой функцией. Чекни папку Hui
-
 	if err != nil {
 		fmt.Println(err)
 	} else {
