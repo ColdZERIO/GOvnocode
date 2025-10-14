@@ -1,6 +1,7 @@
 package main
 
 import (
+	hui "GOvnotest/Hui"
 	zlp "GOvnotest/Zlp"
 	"fmt"
 )
@@ -14,7 +15,9 @@ func main() {
 
 	zlp.Out1()
 
-	Zslice := []int{5,3,7,8,4,5,75,34,7,5,543,4,6,5,7,4,45,6}
+	Zslice := []int{5, 3, 7, 8, 4, 5, 75, 34, 7, 5, 543, 4, 6, 5, 7, 4, 45, 6}
 
-	hui.сhekSLice() // Сань, какая-то залупа с этой функцией. Чекни папку Hui
+	// Сань, какая-то залупа с этой функцией. Чекни папку Hui
+	res := hui.ChekSLice(Zslice)
+	fmt.Println(res)
 }
