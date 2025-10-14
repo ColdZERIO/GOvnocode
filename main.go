@@ -21,8 +21,6 @@ func main() {
 	res := hui.ChekSLice(Zslice)
 	fmt.Println(res)
 
-	hui.ChekSLice() // Сань, какая-то залупа с этой функцией. Чекни папку Hui
-
 	err := zlp.Div()
 
 	if err != nil {
