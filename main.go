@@ -23,9 +23,12 @@ func main() {
 
 	hui.сhekSLice() // Сань, какая-то залупа с этой функцией. Чекни папку Hui
 
-	err := zlp.Div()
+	res, err := num2
 
 	if err != nil {
 		fmt.Println(err)
+	} else {
+		fmt.Println(res)
 	}
+
 }
