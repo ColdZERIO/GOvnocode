@@ -9,7 +9,7 @@ import (
 func main() {
 	num1 := zlp.Mul(5, 8)
 
-	num2 := zlp.Div(30, 0) // Дим, чет тут сломано, чекни файл в пакете Zlp
+	num2, err := zlp.Div(30, 0) // Дим, чет тут сломано, чекни файл в пакете Zlp
 
 	fmt.Println(num1, num2)
 
@@ -21,9 +21,11 @@ func main() {
 	res := hui.ChekSLice(Zslice)
 	fmt.Println(res)
 
-	err := zlp.Div()
+	hui.ChekSLice() // Сань, какая-то залупа с этой функцией. Чекни папку Hui
 
 	if err != nil {
 		fmt.Println(err)
+	} else {
+		fmt.Println(res)
 	}
 }
