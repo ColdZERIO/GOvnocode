@@ -1,6 +1,8 @@
 package main
 // Залупа в ветке ZalupnieHui
 // 2
+
+// 4
 import (
 	hui "GOvnotest/Hui"
 	zlp "GOvnotest/Zlp"
