@@ -17,7 +17,17 @@ func main() {
 
 	Zslice := []int{5, 3, 7, 8, 4, 5, 75, 34, 7, 5, 543, 4, 6, 5, 7, 4, 45, 6}
 
+<<<<<<< HEAD
 	// Сань, какая-то залупа с этой функцией. Чекни папку Hui
 	res := hui.ChekSLice(Zslice)
 	fmt.Println(res)
+=======
+	hui.сhekSLice() // Сань, какая-то залупа с этой функцией. Чекни папку Hui
+
+	err := zlp.Div()
+
+	if err != nil {
+		fmt.Println(err)
+	}
+>>>>>>> 60225619dce883a957c50a42b0671df970e29012
 }
