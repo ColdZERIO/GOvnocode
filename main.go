@@ -1,5 +1,5 @@
 package main
-
+// Залупа в ветке ZalupnieHui
 import (
 	hui "GOvnotest/Hui"
 	zlp "GOvnotest/Zlp"
@@ -25,5 +25,9 @@ func main() {
 		fmt.Println(err)
 	} else {
 		fmt.Println(num2)
+	}
+
+	for i := range 100 {
+		fmt.Println(i)
 	}
 }
